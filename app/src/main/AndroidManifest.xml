@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
         <activity
+            android:name=".Chefsendotp"
+            android:exported="false" />
+        <activity
             android:name=".Chefloginphone"
             android:exported="false" />
         <activity

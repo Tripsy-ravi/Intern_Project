@@ -61,9 +61,9 @@ public class ChooseOne extends AppCompatActivity {
                     finish();
                 }
                 if(type.equals("Phone")){
-//                    Intent loginphone  = new Intent(ChooseOne.this,Chefloginphone.class);
-//                    startActivity(loginphone);
-//                    finish();
+                    Intent loginphone  = new Intent(ChooseOne.this,Chefloginphone.class);
+                    startActivity(loginphone);
+                    finish();
                 }
                 if(type.equals("SignUp")){
                     Intent Register  = new Intent(ChooseOne.this,ChefRegistration.class);

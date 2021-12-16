@@ -37,7 +37,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/firstname"
-                    android:textColorHint="@color/Black"
+                    android:textColorHint="@color/white"
                     android:inputType="text" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -52,7 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/lastname"
-                    android:textColorHint="@color/Black"
+                    android:textColorHint="@color/white"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -68,7 +68,7 @@
                     android:drawableLeft="@drawable/whitemail"
                     android:drawablePadding="10dp"
                     android:hint="@string/emailid"
-                    android:textColorHint="@color/Black"
+                    android:textColorHint="@color/white"
                     android:inputType="textEmailAddress" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -97,7 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/confirm_password"
-                    android:textColorHint="@color/Black"
+                    android:textColorHint="@color/white"
                     android:inputType="textPassword" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -109,6 +109,7 @@
 
                 <com.hbb20.CountryCodePicker
                     android:id="@+id/CountryCode"
+                    app:ccpDialog_textColor="@color/white"
                     android:layout_width="120dp"
                     android:layout_height="match_parent">
 
@@ -123,7 +124,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/mobile"
-                        android:textColorHint="@color/Black"
+                        android:textColorHint="@color/white"
                         android:inputType="number" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -138,7 +139,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/street"
-                    android:textColorHint="@color/Black"
+                    android:textColorHint="@color/white"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -152,7 +153,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/area"
-                    android:textColorHint="@color/Black"
+                    android:textColorHint="@color/white"
                     android:inputType="textMultiLine" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -166,7 +167,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/pincode"
-                    android:textColorHint="@color/Black"
+                    android:textColorHint="@color/white"
                     android:inputType="number" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -175,7 +176,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/state"
-                android:textColor="@color/Black"
+                android:textColor="@color/white"
                 android:textSize="14sp" />
 
             <Spinner
